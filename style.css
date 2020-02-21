@@ -1,0 +1,85 @@
+body {
+	padding: 100px 0;
+	background-image: url(imgs/Али.jpg);
+	background-size: 10%;
+}
+.container {
+	width: 800px;
+	min-height: 800px;
+	border: 20px solid gray;
+	margin: 0 auto;
+	box-shadow: 20px 20px 10px 10px;
+	background: gray;
+	border-radius: 25px;
+}
+header {
+	display: flex;
+	height: 150px;
+}
+.logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	height: 100%;
+	background-image: url(imgs/Фрик.jpg);
+	background-size: cover;
+	margin-right: 10px;
+	border-left: 8px solid black;
+}
+.userpic {
+	display: flex;
+	width: 20%;
+	height: 100%;
+}
+nav ul {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	background: #696969;
+	margin: 10px 0;
+}
+nav li {
+margin: 0;
+padding: 0;
+}
+nav li a {
+	padding: 20px;
+	display: flex;
+	text-decoration: none;
+	background: #808080;
+	border: 6px solid #696969;
+	font-weight: bold;
+	transition: background 1s ease;
+}
+li {
+    list-style-type: none;
+}
+nav li a:hover {
+	background: #696969;
+}
+.content-wrapper {
+	display: flex;
+}
+.content {
+	width: 70%;
+	padding: 40px;
+}
+.saidbar {
+	border: 2px solid black;
+	padding: 10px;
+	width: 30%;
+}
+.users li {
+	border: 2px solid black;
+	padding: 4px;
+}
+.users li:hover {
+	transform: translateX(10px);
+}
+footer {
+	background: #696969;
+}
+hr {
+	color: gray;
+}
